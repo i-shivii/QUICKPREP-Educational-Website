@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.college{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about{
+    height: 500px;
+    width: 360px;
+    /* border: 2px solid black; */
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.img{
+height: 500px;
+width: 800px;
+border-radius: 8px;
+cursor: pointer;
+margin: 30px;
+transition: transform 0.3s ease-in-out;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ img:hover{
+    /* border: 2px solid rgb(50, 47, 47, 0.796); */ 
+    transform: scale(1.05)
+}
+h1{
+    color: #1c4980;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+
+}
+.about h1{
+    font-family: 'Heebo', sans-serif;
+    color: #1c4980;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+h2{
+    font-family: 'Heebo', sans-serif;
+    color: #1c4980;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    color: #383838;
+    font-size: 20px;
+    text-align: justify;
+}
+/* second section */
+ /* Basic styling for the testimonials section */
+ .testimonials {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Individual testimonial card styling */
+.testimonial-card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add different shades of blue for each testimonial card */
+.testimonial-card:nth-child(odd) {
+    background-color: #0e649e;
+}
+
+/* Style the student image */
+.student-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Define hover effect for testimonial cards */
+.testimonial-card:hover {
+    transform: scale(1.05);
+}
+
+/* Define hover effect for student images */
+.student-image:hover {
+    transform: translate(0, -10px);
+}
+        /* Styling for the section */
+/* section 3 */
+ /* Basic styling for the Preparation section */
+ .preparation-section {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the subheading */
+.subheading {
+    color: #3366cc; /* Blue color */
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+/* Grid for the three columns */
+.preparation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Styling for each column */
+.preparation-item {
+    background-color: #f0f0f0; /* Light gray */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Individual column colors */
+.aptitude {
+    background-color: #518ac4; 
+}
+
+.verbal {
+    background-color: #518ac4; 
+}
+
+.technical {
+    background-color: #518ac4;
+}
+.pre-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+}
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    padding: 5px;
+}
+ .preparation-section h2{
+    font-family: 'Heebo', sans-serif;
+    color: #1c4980;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+.text{
+    color: white;
+    font-size: 18px;
+}
+.resume-img{
+    max-width: 100%;
+    height: auto;
+}
+.resume p{
+    background-color: #518ac4;
+    font-size: 20px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 20px;
+}
+/* interview questions */
+.interview-text{
+    background-color: #518ac4;
+    font-size:20px ;
+    padding: 20px;
+    border-radius: 8px;
+
+
+}
+.interview-text h2{
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}

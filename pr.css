@@ -1,0 +1,268 @@
+.section1{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr ;
+    height: 700px;
+    margin: 1px;
+    border: 1px;
+    border-color: 2px solid red;
+}
+#item2{
+    content: "";
+    background:url('https://d8it4huxumps7.cloudfront.net/uploads/images/mentorship/mentorship-desktop-vector.png?d=868x1298');
+    width: 434px;
+    height: 649px;
+    position: absolute;
+    top: 0;
+    right: 0;
+ z-index: -1;
+ background-size: cover;
+ background-repeat: no-repeat; 
+ 
+}
+#item1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #1c4980;
+    margin-bottom: 10px;
+    padding: 104px 60px;
+    padding-left: 123px;
+}
+#item2{
+    padding: -23px 60px;
+}
+
+.ima2{
+    
+    /* height: 335px; */
+    padding: 54px 0px;
+}
+
+#item2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 0px 0px;
+}
+
+
+.section2{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;  
+    height: 600px;
+    padding: 0px 0px;
+    padding-right: 123px;
+    
+    
+}
+.item{
+    
+    padding: 33px 0px;
+    margin: 0px 2px;
+    padding-left: 123px;
+}
+
+.item img{
+    cursor: pointer;
+    height: 157px;
+    width: 15vw;
+    padding: 2px 0px;
+    border: 2px solid rgb(196, 188, 188);
+}
+.item :hover{
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgb(27, 59, 59),
+    0 0 15px rgb(146, 204, 204);
+    margin: 0px 9px;
+}
+
+
+h1{
+    font-size: 47px;
+    text-shadow: 0 0 15px rgb(231, 208, 107);
+    margin: 0px 9px;
+}
+.section3{
+    display: grid;
+    grid-gap: 7rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: center;   */
+    height: 500px;
+    
+    
+}
+.item5{
+    padding: 2px;
+    margin: 2px;
+    height: 250px;
+}
+.item5 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 80%;
+    padding: 13px 0px;
+    /* box-shadow: 0 0 2px rgb(27, 59, 59),
+    0 0 15px rgb(231, 187, 233); */
+    margin: 2px 9px;
+    cursor: pointer;
+}
+#n{
+    display: grid;
+    font-size: 24px;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding:2px 103px;
+    
+}
+#box1{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: center;   */
+    height: 300px;
+    width: 10px;
+    padding: 0px 1px;
+    padding-right: 0px;
+    padding-top: 122px;
+}
+.item6{
+    padding: 1px 1px;
+    margin: 2px;
+    
+    
+}
+.item6 img{
+    cursor: pointer;
+    height: 200px;
+    width: 175px;
+    padding: 1px 1px;
+   border: 2px solid rgb(241, 193, 201);
+   
+}
+.item6 img:hover{
+    box-shadow: 0 0 2px rgb(230, 183, 236),
+            0 0 15px rgb(234, 175, 241);
+            margin: 0px 9px;
+}
+
+p{
+    font-size: 30px; 
+}
+header{
+    position: sticky;
+    top: 0;
+}
+
+/* Sheezah nav */
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+
+.nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #fff;
+    height: 75px;
+    padding: 1px 1px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.358);
+}
+/* logo */
+
+
+/* menu bar */
+.Menu{
+    justify-content: center;
+    align-items: center;
+    padding: 2px 3px;
+    margin: 0 12px;
+    font-size: 21px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: .4s;
+    color: hsl(213, 41%, 41%);
+    width: 80%;
+    height: 40px;
+    justify-content: space-between;
+    
+}
+.logo{
+    margin: 12px;
+    color: #3e6493;
+    height: 24px;
+    width: 24px;
+}
+.logo:hover{
+    color: #0073e6;
+}
+.text{
+    font-family: "Inter",sans-serif!important;
+    color: #0073e6;
+    font-size: .8rem;
+}
+.text:hover{
+    color: #0073e6;
+    text-decoration: underline;
+}
+/* Login */
+.btn{
+    height: 34px;
+    background: #0073e6;
+    border: 1px solid #0073e6;
+    border-radius: 50px;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    padding: 0 15px;
+    margin-left: 15px;
+}
+ /* sheezah nav end */
+ .item-1{
+    color: whitesmoke;
+padding:  9px 12px;
+margin: 4px;
+height: 79vh;
+width: 21vw;
+display: inline;
+font-size: 15px;
+}
+.section-2{
+    background-color: #0073e6;
+height: 40vh;
+margin: auto;
+padding: 78px 2vw;
+
+}
+.ok{
+font-size: 16px;
+color: whitesmoke;}
+.box-1{
+    display: grid;
+    grid-gap:30rem;
+    grid-template-columns: 1fr 1fr 1fr;
+     
+    /* making responsive grid */
+    grid-template-columns: repeat(auto-fit,minmax(30px,40px));
+    
+
+}
+footer{
+    color: rgb(112, 105, 105);
+    height: 45px;
+    font-size: 24px;
+    padding: 2px 3px;
+}

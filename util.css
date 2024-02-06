@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bree+Serif&family=Oswald&family=PT+Serif:ital@1&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,900;1,100;1,200&family=Roboto&display=swap');
+
+.align-center{
+    text-align: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.bolder{
+    font-weight: bolder;
+}
+.space-between{
+    justify-content: space-between;
+}
